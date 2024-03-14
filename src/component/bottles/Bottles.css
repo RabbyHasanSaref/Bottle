@@ -1,0 +1,12 @@
+.bottles-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+}
+@media screen and (max-width: 600px){
+    .bottles-container{
+        display: grid;
+        grid-template-columns: auto;
+        gap: 10px;
+    }
+}
